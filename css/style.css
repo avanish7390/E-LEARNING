@@ -104,7 +104,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  background: #fff;
+  background: rgb(64, 223, 197);
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem 10%;
@@ -152,11 +152,11 @@ section {
   margin-right: 2rem;
   font-size: 2rem;
   text-transform: capitalize;
-  color: #444;
+  color: rgb(9, 9, 9);
 }
 
 .header .navbar a:hover {
-  color: #0eb582;
+  color: #eb24c6;
 }
 
 .header .icons div {
@@ -167,7 +167,7 @@ section {
 }
 
 .header .icons div:hover {
-  color: #0eb582;
+  color: #c424f0;
 }
 
 .header #menu-btn {
@@ -1012,7 +1012,7 @@ section {
     top: 0;
     right: -105%;
     width: 30rem;
-    background: #fff;
+    background: rgb(75, 237, 180);
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1032,7 +1032,7 @@ section {
   }
 
   .header .navbar.active {
-    -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 0 100vw rgba(20, 18, 18, 0.941);
     box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
     right: 0;
   }
