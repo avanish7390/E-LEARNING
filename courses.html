@@ -1,366 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>courses</title>
-    <link
-      rel="shortcut icon"
-      href="./images/favicon.svg"
-      type="image/svg+xml"
-    />
 
-    <!-- font awesome cdn link  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>courses</title>
+  <link rel="shortcut icon" href="./images/favicon.svg" type="image/svg+xml" />
 
-    <!-- swiper css link  -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- header section starts  -->
+  <!-- swiper css link  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
-    <header class="header">
-      <a href="#" class="logo">
-        <img src="images/logo.png" alt="" />
-      </a>
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-      <nav class="navbar">
-        <div id="close-navbar" class="fas fa-times"></div>
-        <a href="home.html">home</a>
-        <a href="about.html">about</a>
-        <a href="courses.html">courses</a>
-        <a href="contact.html">contact</a>
-      </nav>
+<body>
+  <!-- header section starts  -->
 
-      <div class="icons">
-        <div id="account-btn" class="fas fa-user"></div>
-        <div id="menu-btn" class="fas fa-bars"></div>
-      </div>
-    </header>
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="images/logo.png" alt="" />
+    </a>
 
-    <!-- account form section starts  -->
+    <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="home.html">home</a>
+      <a href="about.html">about</a>
+      <a href="courses.html">courses</a>
+      <a href="contact.html">contact</a>
+    </nav>
 
-    <div class="account-form">
-      <div id="close-form" class="fas fa-times"></div>
+    <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+  </header>
 
-      <div class="buttons">
-        <span class="btn active login-btn">login</span>
-        <span class="btn register-btn">register</span>
-      </div>
+  <!-- account form section starts  -->
 
-      <form class="login-form active" action="">
-        <h3>login now</h3>
-        <input type="email" placeholder="enter your email" class="box" />
-        <input type="password" placeholder="enter your password" class="box" />
-        <div class="flex">
-          <input type="checkbox" name="" id="remember-me" />
-          <label for="remember-me">remember me</label>
-          <a href="#">forgot password?</a>
-        </div>
-        <input type="submit" value="login now" class="btn" />
-      </form>
+  <div class="account-form">
+    <div id="close-form" class="fas fa-times"></div>
 
-      <form class="register-form" action="">
-        <h3>register now</h3>
-        <input type="email" placeholder="enter your email" class="box" />
-        <input type="password" placeholder="enter your password" class="box" />
-        <input
-          type="password"
-          placeholder="confirm your password"
-          class="box"
-        />
-        <input type="submit" value="register now" class="btn" />
-      </form>
+    <div class="buttons">
+      <span class="btn active login-btn">login</span>
+      <span class="btn register-btn">register</span>
     </div>
 
-    <!-- account form section ends -->
+    <form class="login-form active" action="">
+      <h3>login now</h3>
+      <input type="email" placeholder="enter your email" class="box" />
+      <input type="password" placeholder="enter your password" class="box" />
+      <div class="flex">
+        <input type="checkbox" name="" id="remember-me" />
+        <label for="remember-me">remember me</label>
+        <a href="#">forgot password?</a>
+      </div>
+      <input type="submit" value="login now" class="btn" />
+    </form>
 
-    <!-- header section ends -->
+    <form class="register-form" action="">
+      <h3>register now</h3>
+      <input type="email" placeholder="enter your email" class="box" />
+      <input type="password" placeholder="enter your password" class="box" />
+      <input type="password" placeholder="confirm your password" class="box" />
+      <input type="submit" value="register now" class="btn" />
+    </form>
+  </div>
 
-    <section class="heading-link">
-      <h3>Coding Courses Here</h3>
-      <p><a href="home.html"></a></p>
-    </section>
+  <!-- account form section ends -->
 
-    <section class="courses">
-      <h1 class="heading">Some courses for IIT</h1>
+  <!-- header section ends -->
 
-      <div class="box-container">
-        <a
-          href="https://prutor.ai/product/full-stack-developer-html5-css3-javascript-bootstrap-php-with-mysql-with-internship-project-letter-live/"
-        >
-          <div class="box">
-            <div class="image">
-              <img src="images/course-2-1.jpg" alt="" />
-              <h3>development</h3>
-            </div>
-            <div class="content">
-              <h3>
-                Full Stack Developer – HTML5, CSS3, JavaScript, Bootstrap, PHP
-                with MySQL (with Internship | Project Letter)
-              </h3>
-              <!-- <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,
-              odit!
-            </p> -->
+  <section class="heading-link">
+    <h3>Coding Courses Here...</h3>
+    <p><a href="home.html"></a></p>
+  </section>
 
-              <div class="icons">
-                <span> <i class="fas fa-book"></i>Live classes</span>
-                <span> <i class="fas fa-clock"></i> 6 Weeks</span>
-              </div>
-            </div>
-          </div>
-        </a>
+  <section class="courses">
 
-        <a href="https://prutor.ai/product/autocad-2d-and-3d/">
-          <div class="box">
-            <div class="image">
-              <img src="images/course-2-2.jpg" alt="" />
-              <h3>AUTOCAD</h3>
-            </div>
-            <div class="content">
-              <h3>AutoCAD 2D and 3D</h3>
-              <p>All IT professionals.</p>
-
-              <div class="icons">
-                <span> <i class="fas fa-book"></i> 17 modules </span>
-                <span> <i class="fas fa-clock"></i> 24X7 Access </span>
-              </div>
-            </div>
-          </div>
-        </a>
-
+    <div class="box-container">
+      <a
+        href="youtub.html">
         <div class="box">
           <div class="image">
-            <a href="https://prutor.ai/summertraining/"
-              ><img src="images/course-2-3.jpg" alt=""
-            /></a>
-            <h3></h3>
+            <img src="images/youtube.jpg" alt="" />
+            <h3>YOUTUBE</h3>
           </div>
           <div class="content">
-            <h3>choose what's best for you!</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,
-              odit!
-            </p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-              <span> <i class="fas fa-book"></i> 12 modules </span>
-              <span> <i class="fas fa-clock"></i> 6 hours </span>
-            </div>
+            <h3>Coding Course With Youtube</h3>
+
           </div>
         </div>
+      </a>
 
+      <a href="Greatl.html">
         <div class="box">
           <div class="image">
-            <img src="images/course-2-4.jpg" alt="" />
-            <h3>doctor</h3>
+            <img src="images/ggl.jpg" alt="" />
+            <h3>GREAT LEARNING</h3>
           </div>
           <div class="content">
-            <h3>choose what's best for you!</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,
-              odit!
-            </p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-              <span> <i class="fas fa-book"></i> 12 modules </span>
-              <span> <i class="fas fa-clock"></i> 6 hours </span>
-            </div>
+            <h3>Coding Course With Great Learning</h3>
+
           </div>
         </div>
+      </a>
 
-        <div class="box">
-          <div class="image">
-            <img src="images/course-2-5.jpg" alt="" />
-            <h3>science</h3>
-          </div>
-          <div class="content">
-            <h3>choose what's best for you!</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,
-              odit!
-            </p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-              <span> <i class="fas fa-book"></i> 12 modules </span>
-              <span> <i class="fas fa-clock"></i> 6 hours </span>
-            </div>
-          </div>
-        </div>
 
-        <div class="box">
-          <div class="image">
-            <img src="images/course-2-6.jpg" alt="" />
-            <h3>business</h3>
-          </div>
-          <div class="content">
-            <h3>choose what's best for you!</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,
-              odit!
-            </p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-              <span> <i class="fas fa-book"></i> 12 modules </span>
-              <span> <i class="fas fa-clock"></i> 6 hours </span>
-            </div>
-          </div>
-        </div>
+    </div>
 
-        <div class="box hide">
-          <div class="image">
-            <img src="images/course-2-7.jpg" alt="" />
-            <h3>teaching</h3>
-          </div>
-          <div class="content">
-            <h3>choose what's best for you!</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,
-              odit!
-            </p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-              <span> <i class="fas fa-book"></i> 12 modules </span>
-              <span> <i class="fas fa-clock"></i> 6 hours </span>
-            </div>
-          </div>
-        </div>
 
-        <div class="box hide">
-          <div class="image">
-            <img src="images/course-2-8.jpg" alt="" />
-            <h3>designing</h3>
-          </div>
-          <div class="content">
-            <h3>choose what's best for you!</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,
-              odit!
-            </p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-              <span> <i class="fas fa-book"></i> 12 modules </span>
-              <span> <i class="fas fa-clock"></i> 6 hours </span>
-            </div>
-          </div>
-        </div>
+  </section>
 
-        <div class="box hide">
-          <div class="image">
-            <img src="images/course-2-9.jpg" alt="" />
-            <h3>dancing</h3>
-          </div>
-          <div class="content">
-            <h3>choose what's best for you!</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,
-              odit!
-            </p>
-            <a href="#" class="btn">read more</a>
-            <div class="icons">
-              <span> <i class="fas fa-book"></i> 12 modules </span>
-              <span> <i class="fas fa-clock"></i> 6 hours </span>
-            </div>
-          </div>
+  <!-- footer section starts  -->
+
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3><img src="images/ll.png" alt=""></i></h3>
+        <p>
+          Our goal is to make your skill better for future..
+        </p>
+        <div class="share">
+          <a href="https://www.facebook.com/profile.php?id=100090379332563" class="fab fa-facebook-f"></a>
+          <a href="https://twitter.com/GyanWeb1?t=4KWl4aFEX_Whao9wg8SYOw&s=08" class="fab fa-twitter"></a>
+          <a href="https://instagram.com/gyan.web?igshid=ZDdkNTZiNTM=" class="fab fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/gyan-web-109a80266" class="fab fa-linkedin"></a>
+
+          <a href="https://wa.me/message/YF5Z52DDEEKJA1" class="fab fa-whatsapp"></a>
+
+
+
         </div>
       </div>
 
-      <div class="load-more"><div class="btn">load more</div></div>
-    </section>
 
-    <!-- footer section starts  -->
-
-    <section class="footer">
-      <div class="box-container">
-          <div class="box">
-          <h3><img src="images/ll.png" alt=""></i></h3>
-          <p>
-            Our goal is to make your skill better for future..
-          </p>
-          <div class="share">
-            <a
-              href="https://www.facebook.com/profile.php?id=100090379332563"
-              class="fab fa-facebook-f"
-            ></a>
-            <a
-              href="https://twitter.com/GyanWeb1?t=4KWl4aFEX_Whao9wg8SYOw&s=08"
-              class="fab fa-twitter"
-            ></a>
-            <a
-              href="https://instagram.com/gyan.web?igshid=ZDdkNTZiNTM="
-              class="fab fa-instagram"
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/gyan-web-109a80266"
-              class="fab fa-linkedin"
-            ></a>
-
-            <a
-            href="https://wa.me/message/YF5Z52DDEEKJA1"
-            class="fab fa-whatsapp"
-          ></a>
-           
-         
-            
-          </div>
-        </div>
-
-        
-        <div class="box">
-          <h3>quick links</h3>
-          <a href="home.html" class="link">Home</a>
-          <a href="about.html" class="link">About</a>
-          <a href="courses.html" class="link">Courses</a>
-          <a href="contact.html" class="link">Contact</a>
-        </div>
-
-        <div class="box">
-          <h3>useful links</h3>
-          <a href="#" class="link">Help center</a>
-          <a href="#" class="link">Ask questions</a>
-          <a href="#" class="link">Send feedback</a>
-          <a href="#" class="link">Private policy</a>
-          <a href="#" class="link">Terms of use</a>
-        </div>
-
-        <div class="box">
-          <h3>newsletter</h3>
-          <p>subscribe for latest upadates</p>
-          <form action="">
-            <input
-              type="email"
-              name=""
-              placeholder="enter your email"
-              id=""
-              class="email"
-            />
-            <input type="submit" value="subscribe" class="btn" />
-          </form>
-        </div>
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="home.html" class="link">Home</a>
+        <a href="about.html" class="link">About</a>
+        <a href="courses.html" class="link">Courses</a>
+        <a href="contact.html" class="link">Contact</a>
       </div>
 
-      <div class="credit">
-        created by <span>gyan</span> | all rights reserved!
+      <div class="box">
+        <h3>useful links</h3>
+        <a href="#" class="link">Help center</a>
+        <a href="#" class="link">Ask questions</a>
+        <a href="#" class="link">Send feedback</a>
+        <a href="#" class="link">Private policy</a>
+        <a href="#" class="link">Terms of use</a>
       </div>
-    </section>
 
-    <!-- footer section ends -->
+      <div class="box">
+        <h3>newsletter</h3>
+        <p>subscribe for latest upadates</p>
+        <form action="">
+          <input type="email" name="" placeholder="enter your email" id="" class="email" />
+          <input type="submit" value="subscribe" class="btn" />
+        </form>
+      </div>
+    </div>
 
-    <!-- swiper js link  -->
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <div class="credit">
+      created by <span>gyan</span> | all rights reserved!
+    </div>
+  </section>
 
-    <!-- custom js file link  -->
-    <script src="js/script.js"></script>
-  </body>
+  <!-- footer section ends -->
+
+  <!-- swiper js link  -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <!-- custom js file link  -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
