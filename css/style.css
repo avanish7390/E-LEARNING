@@ -619,29 +619,29 @@ section {
   gap: 2rem;
 }
 
-.courses .box-container .box:hover .image img {
+.courses .box-container .fe-box:hover .image img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-.courses .box-container .box.hide {
+.courses .box-container .fe-box.hide {
   display: none;
 }
 
-.courses .box-container .box .image {
+.courses .box-container .fe-box .image {
   height: 25rem;
   overflow: hidden;
   position: relative;
 }
 
-.courses .box-container .box .image img {
+.courses .box-container .fe-box .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.courses .box-container .box .image h3 {
+.courses .box-container .fe-box .image h3 {
   font-size: 1.5rem;
   text-transform: capitalize;
   color: #444;
@@ -652,7 +652,7 @@ section {
   background: #fff;
 }
 
-.courses .box-container .box .content {
+.courses .box-container .fe-box .content {
   padding: 2rem;
   text-align: center;
   border: 0.1rem solid #0eb582;
@@ -664,14 +664,14 @@ section {
   color: #444;
 }
 
-.courses .box-container .box .content p {
+.courses .box-container .fe-box .content p {
   padding: 1rem 0;
   font-size: 1.6rem;
   line-height: 2;
   color: #777;
 }
 
-.courses .box-container .box .content .icons {
+.courses .box-container .fe-box .content .icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -686,13 +686,13 @@ section {
   border-top: 0.1rem solid #0eb582;
 }
 
-.courses .box-container .box .content .icons span {
+.courses .box-container .fe-box .content .icons span {
   font-size: 1.5rem;
   text-transform: capitalize;
   color: #444;
 }
 
-.courses .box-container .box .content .icons span i {
+.courses .box-container .fe-box .content .icons span i {
   color: #0eb582;
   padding-right: .5rem;
 }
