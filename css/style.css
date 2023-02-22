@@ -614,9 +614,9 @@ section {
 .courses .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .courses .box-container .box:hover img {
@@ -629,16 +629,20 @@ section {
 }
 
 .courses .box-container .box {
-  height: 25rem;
+  height: 20rem;
+  border: 0.1rem solid #0eb582;
+ 
   overflow: hidden;
   position: relative;
 }
 
 .courses .box-container .box img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
+  height: 20rem;
+  margin-bottom: .7rem;
+  text-align: center;
+  padding-left: 6rem;
+  /* -o-object-fit: cover;
+  object-fit: cover; */
 }
 
 .courses .box-container .box h3 {
