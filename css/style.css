@@ -227,6 +227,12 @@ section {
   display: block;
 }
 
+
+
+
+
+
+
 .account-form form h3 {
   font-size: 2.5rem;
   text-transform: capitalize;
@@ -304,19 +310,20 @@ section {
   width: 50rem;
 }
 
-.home .slide .content h3 {
+.home .slide .content h1 {
   font-size: 5rem;
   text-transform: capitalize;
   color: #444;
   color: #fff;
 }
 
-.home .slide .content p {
-  font-size: 1.6rem;
+.home .slide .content h4 {
+  font-size: 1.8rem;
   line-height: 2;
   color: #777;
-  color: #eee;
-  padding: 1rem 0;
+  color: rgb(10, 10, 10);
+  padding-right: 2px;
+
 }
 
 .swiper-pagination-bullet-active {
@@ -631,7 +638,7 @@ section {
 .courses .box-container .box {
   height: 20rem;
   border: 0.1rem solid #0eb582;
- 
+
   overflow: hidden;
   position: relative;
 }
@@ -910,7 +917,7 @@ section {
   gap: 2rem;
 }
 
-.footer .box-container .box h3 img{
+.footer .box-container .box h3 img {
   height: 8rem;
 
 }
