@@ -21,6 +21,30 @@ img {
 }
 
 
+/* 
+.rotate-img {
+  display: block;
+  margin-left: 20; */
+
+  /* position: absolute; */
+  /* bottom: -46px; */
+  /* left: -41px;
+  width: 90px;
+  height: 119px;
+  animation: rotate360 21s linear infinite reverse;
+}
+
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(2turn);
+  }
+} */
+
 .header .logo img {
   height: 6rem;
 }
