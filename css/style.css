@@ -668,10 +668,11 @@ section {
 }
 
 .courses .box-container .box img {
-  height: 20rem;
+  height: 18rem;
   margin-bottom: .7rem;
   text-align: center;
   padding-left: 6rem;
+  padding-top: 2rem;
   /* -o-object-fit: cover;
   object-fit: cover; */
 }
