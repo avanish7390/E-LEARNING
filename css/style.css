@@ -26,9 +26,9 @@ img {
   display: block;
   margin-left: 20; */
 
-  /* position: absolute; */
-  /* bottom: -46px; */
-  /* left: -41px;
+/* position: absolute; */
+/* bottom: -46px; */
+/* left: -41px;
   width: 90px;
   height: 119px;
   animation: rotate360 21s linear infinite reverse;
@@ -671,7 +671,7 @@ section {
   height: 18rem;
   margin-bottom: .7rem;
   text-align: center;
-  padding-left: 6rem;
+  padding-left: 12rem;
   padding-top: 2rem;
   /* -o-object-fit: cover;
   object-fit: cover; */
